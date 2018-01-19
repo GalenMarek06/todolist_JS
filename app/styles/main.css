@@ -1,0 +1,159 @@
+body 
+{
+background-color:#ffe6ff;
+display:flex;
+flex-direction: column;
+justify-content:center;
+align-items:center;
+}
+
+section
+{
+	display:flex;
+	flex-direction: column;
+width:60%;
+ background-color: white;
+ -webkit-box-shadow: 6px 6px 23px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 6px 23px 0px rgba(0,0,0,0.75);
+box-shadow: 6px 6px 23px 0px rgba(0,0,0,0.75);
+}
+
+#txt_addTodo
+{
+	width: 100%;
+	height:60px;
+	font-size: 40px;
+
+}
+
+.ptodo
+{
+	 -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+	width: 98%;
+	font-size: 40px;
+	  text-align:center;
+}
+
+.ptodoEdit
+{
+	width: 98%;
+	font-size: 40px;
+	  text-align:center;
+}
+
+.Readingmode, .Editingmode
+{
+	background-color: white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+.Readingmode .ptodo , .Editingmode .ptodoEdit
+{
+	display: block;
+	
+}
+
+.Editingmode .ptodo , .Readingmode .ptodoEdit
+{
+	display:none;
+	
+
+}
+
+
+
+#todoPlus
+{
+	border-right: 1px solid #ccccb3;
+}
+
+#todolist tr
+{
+	margin:1%;
+}
+
+
+
+#todolist .fa
+{
+	font-size:40px;
+}
+
+h1 {
+	color:black;
+	opacity: 0.3;
+	font-size: 70px;
+}
+
+#addtodo
+{
+	padding:1%;
+	border-bottom: 1px solid #ccccb3;
+}
+
+#addtodo .fa
+{
+	font-size:40px;
+}
+
+#infostodo
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	font-size: 40px;
+	padding:1%;
+	border-top: 1px solid #ccccb3;
+}
+
+
+#pTodoLeft
+{
+	width:20%;
+}
+
+#btn_todoFilter
+{
+	width:80%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items:center;
+}
+
+#infostodo button
+{
+	font-size: 20px;
+	color:grey;
+	width:20%;
+	height: 50px;
+	border-color:  1px, solid, #ccccb3;
+	border-radius: 2%;
+}
+
+#infostodo button:hover
+{
+	color:black;
+	border-color:  1px, solid, black;
+
+}
+
+.hide{
+	visibility: hidden;
+}
+
+.hideEdit{
+	display:none;
+}
+
+#todolist tr:hover .hide
+{
+	visibility: visible;
+}
+
+td{
+	text-align: center;
+}

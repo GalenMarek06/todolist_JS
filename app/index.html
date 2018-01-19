@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+	<head>
+		<title>JavaScript 2018</title>
+		<!-- styles -->
+		<link href="styles/main.css" rel="stylesheet" type="text/css" />
+		<link href="/node_modules/font-awesome/css/font-awesome.css" rel="stylesheet">
+		<!--/ styles -->
+	</head>
+
+	<body>
+		<header>
+			<h1>todos</h1>
+		</header>
+		<section>
+			<div id="addtodo">
+				<table style="width:100%" >
+					  <tr width="100%">
+					    <td width="10%" ><i class="fa fa-caret-down" aria-hidden="true"></i></td>
+					    <td width="100%" ><input id="txt_addTodo" type="text" name="inp_adress" placeholder="What's need to be done?"></td>				   
+					  </tr>
+				</table>
+			</div>
+			<div id="todolist">
+				<table style="width:100%">
+			
+				</table>
+			</div>
+			<div id="infostodo">
+					<p id="pTodoLeft"> 3 items left</p> 
+					<div id= "btn_todoFilter">
+						<button id="filterAll">All </button>
+						<button id="filterActive">Active </button>
+				 		<button id="filterCompleted">Completed </button>	   
+				 		<button id="filterClearCompleted">Clear Completed </button>	
+				 	</div>
+				
+			</div>
+		</section>
+		<!-- scripts -->
+		<script src="scripts/main.js"></script>
+		<!--/ scripts -->
+	</body>
+
+</html>
